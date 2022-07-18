@@ -25,7 +25,7 @@ pip install opencv-python numpy skimage
 
 ### single-view demo
 
-The following script show how to use the PPA model for estimating a planar surface normal.
+The following script shows how to use the PPA model for estimating a planar surface normal.
 
 ```python
 python singleview_normal.py
