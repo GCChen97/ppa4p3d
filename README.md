@@ -20,9 +20,6 @@ The PPA model defines the polarization phase angle as the direction of the inter
 pip install opencv-python numpy skimage
 ```
 
-The PPA model defines the polarization phase angle as the direction of the intersecting line of the image plane and the plane of incident, and hence allows the perspective effect to be considered in estimating surface normals from the phase angles and in defining the constraint on surface normal by the phase angle.
-
-
 
 ## Normal estimation
 
