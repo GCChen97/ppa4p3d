@@ -1,6 +1,6 @@
 # Perspective Phase Angle Model for Polarimetric 3D Reconstruction
 
-The [Paper](http://arxiv.org/abs/2207.09629) was accepted to ECCV 2022.
+The [paper](http://arxiv.org/abs/2207.09629) was accepted to ECCV 2022.
 
 ```
 @article{gcc2022ppa,
