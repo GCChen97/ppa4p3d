@@ -1,5 +1,7 @@
 # Perspective Phase Angle Model for Polarimetric 3D Reconstruction
 
+[paper](http://arxiv.org/abs/2207.09629)
+
 ## Introduction
 
 This repository contains a demo of single-view planar normal estimation for ECCV 2022 paper -Perspective Phase Angle Model for Polarimetric 3D Reconstruction-.
