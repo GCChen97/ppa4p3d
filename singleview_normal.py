@@ -53,11 +53,11 @@ num_views = -1
 th_DoP = 0.1
 
 ## data paths
-list_path_images = glob.glob("data/images/**.*png")
+list_path_images = glob.glob("data/single_normal/images/**.*png")
 
 ## camera parameters
 GAMMA = 0.5
-list_path_cameras = glob.glob("data/cams/**.*txt")
+list_path_cameras = glob.glob("data/single_normal/cams/**.*txt")
 list_cameras = []
 for path_cam_txt in list_path_cameras:
     list_cameras.append(read_camera(path_cam_txt))
@@ -69,8 +69,8 @@ camera_matrix_resize = np.array(CAMERA_MATRIX)
 camera_matrix_resize[:2] = camera_matrix_resize[:2]*RESIZE_FACTOR
 
 ## plane parameters
-pts_3d_corners_w = np.load("pts_3d_corners_w.npy")
-normal_w = np.load("normal_w.npy")
+pts_3d_corners_w = np.load("data/single_normal/pts_3d_corners_w.npy")
+normal_w = np.load("data/single_normal/normal_w.npy")
 
 ## main part
 nd_normal_est = np.empty([0,3],dtype=np.float32)
