@@ -42,3 +42,10 @@ The following script shows how to use the PPA model for estimating a planar surf
 ```python
 python singleview_normal.py
 ```
+
+### normal from depth demo
+The example code `normal_from_depth.py` shows how to generate normal map from depth map and generate phase angle map from normal map.
+
+```
+python normal_from_depth.py
+```
