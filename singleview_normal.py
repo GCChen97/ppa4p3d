@@ -53,11 +53,11 @@ num_views = -1
 th_DoP = 0.1
 
 ## data paths
-list_path_images = glob.glob("data/single_normal/images/**.*png")
+list_path_images = sorted(glob.glob("data/single_normal/images/**.*png"))
 
 ## camera parameters
 GAMMA = 0.5
-list_path_cameras = glob.glob("data/single_normal/cams/**.*txt")
+list_path_cameras = sorted(glob.glob("data/single_normal/cams/**.*txt"))
 list_cameras = []
 for path_cam_txt in list_path_cameras:
     list_cameras.append(read_camera(path_cam_txt))
