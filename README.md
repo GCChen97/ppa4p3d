@@ -1,13 +1,26 @@
 # Perspective Phase Angle Model for Polarimetric 3D Reconstruction
 
-The [paper](https://arxiv.org/abs/2207.09629v2) was accepted to ECCV 2022.
+The [paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620387.pdf) was accepted to ECCV 2022.
 
 ```
-@article{gcc2022ppa,
-  title={{Perspective Phase Angle Model for Polarimetric 3D Reconstruction}},
-  author={Chen, Guangcheng and He, Li and Guan, Yisheng and Zhang, Hong},
-  journal={arXiv preprint arXiv:2207.09629},
-  year={2022}
+@InProceedings{10.1007/978-3-031-20086-1_23,
+author="Chen, Guangcheng
+and He, Li
+and Guan, Yisheng
+and Zhang, Hong",
+editor="Avidan, Shai
+and Brostow, Gabriel
+and Ciss{\'e}, Moustapha
+and Farinella, Giovanni Maria
+and Hassner, Tal",
+title="Perspective Phase Angle Model for Polarimetric 3D Reconstruction",
+booktitle="Computer Vision -- ECCV 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="398--414",
+abstract="Current polarimetric 3D reconstruction methods, including those in the well-established shape from polarization literature, are all developed under the orthographic projection assumption. In the case of a large field of view, however, this assumption does not hold and may result in significant reconstruction errors in methods that make this assumption. To address this problem, we present the perspective phase angle (PPA) model that is applicable to perspective cameras. Compared with the orthographic model, the proposed PPA model accurately describes the relationship between polarization phase angle and surface normal under perspective projection. In addition, the PPA model makes it possible to estimate surface normals from only one single-view phase angle map and does not suffer from the so-called {\$}{\$}{\backslash}pi {\$}{\$}$\pi$-ambiguity problem. Experiments on real data show that the PPA model is more accurate for surface normal estimation with a perspective camera than the orthographic model.",
+isbn="978-3-031-20086-1"
 }
 ```
 
